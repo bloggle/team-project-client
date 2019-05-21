@@ -20,33 +20,33 @@ const blogsBack = function () {
 const getBlogFailure = function () {
   $('#user-div').fadeIn(50)
   $('#user-div').html('Something went wrong, please try again!')
-  $('#user-div').fadeOut(8000)
+  $('#user-div').fadeOut(2000)
 }
 
 const onCreateBlogSuccess = function (data) {
   $('form').trigger('reset')
   $('#user-div').fadeIn(50)
   $('#user-div').html('Your blog has been created!')
-  $('#user-div').fadeOut(8000)
+  $('#user-div').fadeOut(2000)
 }
 
 const onCreateBlogFailure = function (data) {
   $('#user-div').fadeIn(50)
   $('#user-div').html('Something went wrong, please try again!')
-  $('#user-div').fadeOut(8000)
+  $('#user-div').fadeOut(2000)
 }
 
 const onUpdateBlogSuccess = function (data) {
   $('form').trigger('reset')
   $('#user-div').fadeIn(50)
   $('#user-div').html('Your blog has been updated!')
-  $('#user-div').fadeOut(8000)
+  $('#user-div').fadeOut(2000)
 }
 
 const onUpdateBlogFailure = function (data) {
   $('#user-div').fadeIn(50)
   $('#user-div').html('Something went wrong, please try again!')
-  $('#user-div').fadeOut(8000)
+  $('#user-div').fadeOut(2000)
 }
 
 const blogUpdateButtonClick = function () {
@@ -56,13 +56,13 @@ const blogUpdateButtonClick = function () {
 const onDestroyBlogSuccess = function (data) {
   $('#user-div').fadeIn(50)
   $('#user-div').html('Your blog has been destroyed!')
-  $('#user-div').fadeOut(8000)
+  $('#user-div').fadeOut(2000)
 }
 
 const onDestroyBlogFailure = function (data) {
   $('#user-div').fadeIn(50)
   $('#user-div').html('Something went wrong, please try again!')
-  $('#user-div').fadeOut(8000)
+  $('#user-div').fadeOut(2000)
 }
 
 const onOpen = function () {
